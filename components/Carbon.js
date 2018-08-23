@@ -10,9 +10,17 @@ import Watermark from '../components/svg/Watermark'
 import { COLORS, LANGUAGE_MODE_HASH, LANGUAGE_NAME_HASH, DEFAULT_SETTINGS } from '../lib/constants'
 
 class Carbon extends React.PureComponent {
+  static count = 0
   static defaultProps = {
     onAspectRatioChange: () => {},
     updateCode: () => {}
+  }
+
+  constructor(props) {
+    super(props)
+
+    this.id = `carbon_${props.id || Carbon.count}`
+    Carbon.count++
   }
 
   componentDidMount() {
@@ -48,6 +56,13 @@ class Carbon extends React.PureComponent {
   onBeforeChange = (editor, meta, code) => {
     if (!this.props.readOnly) {
       this.props.updateCode(code)
+      window.parent.postMessage(
+        {
+          id: this.id,
+          code
+        },
+        window.location.origin
+      )
     }
   }
 
