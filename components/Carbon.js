@@ -239,7 +239,7 @@ class Carbon extends React.PureComponent {
               overflow: hidden;
             }
 
-            /* forces twitter to save images as png — https://github.com/dawnlabs/carbon/issues/86 */
+            /* forces twitter to save images as png — https://github.com/derick/carbon/issues/86 */
             .twitter-png-fix {
               height: 1px;
               width: 100%;

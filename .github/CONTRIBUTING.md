@@ -15,6 +15,6 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 ### A note on adding themes/languages
 We're happy to accept any PRs adding new themes and languages to Carbon! Currently there are a few ways to do so:
 
-1. If the [theme](https://codemirror.net/demo/theme.html) or [language](https://codemirror.net/mode/index.html) is supported in Codemirror, all you have to do is add a [constant](https://github.com/dawnlabs/carbon/blob/master/lib/constants.js) for it.
+1. If the [theme](https://codemirror.net/demo/theme.html) or [language](https://codemirror.net/mode/index.html) is supported in Codemirror, all you have to do is add a [constant](https://github.com/derick/carbon/blob/master/lib/constants.js) for it.
 
-2. If it's not supported, you can add a Codemirror compliant [custom theme](https://github.com/dawnlabs/carbon/tree/master/static/themes) or [custom mode](https://github.com/dawnlabs/carbon/tree/master/lib/custom/modes) to implement it and add a constant like above.
+2. If it's not supported, you can add a Codemirror compliant [custom theme](https://github.com/derick/carbon/tree/master/static/themes) or [custom mode](https://github.com/derick/carbon/tree/master/lib/custom/modes) to implement it and add a constant like above.

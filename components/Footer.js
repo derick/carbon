@@ -8,16 +8,16 @@ const Footer = () => (
       <Link href="/about">
         <a className="link">about</a>
       </Link>
-      <a className="link" href="https://github.com/dawnlabs/carbon/issues/new">
+      <a className="link" href="https://github.com/derick/carbon/issues/new">
         send feedback
       </a>
-      <a className="link" href="https://github.com/dawnlabs/carbon">
+      <a className="link" href="https://github.com/derick/carbon">
         source
       </a>
     </nav>
     <div className="mt3 mb2">
       a project by{' '}
-      <a className="dawn-link" href="https://dawnlabs.io">
+      <a className="dawn-link" href="https://derick.io">
         Dawn Labs
       </a>{' '}
       ¬

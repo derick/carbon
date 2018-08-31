@@ -57,7 +57,7 @@ export default () => (
       <div>
         <h2>I want to make this better.</h2>
         <p>
-          <a className="link" href="https://github.com/dawnlabs/carbon">
+          <a className="link" href="https://github.com/derick/carbon">
             Please do.
           </a>
         </p>

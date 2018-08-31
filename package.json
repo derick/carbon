@@ -81,11 +81,11 @@
   "description": "Create and share beautiful images of your source code",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawnlabs/carbon.git"
+    "url": "git+https://github.com/derick/carbon.git"
   },
-  "author": "Dawn Labs <@dawnlabs>",
+  "author": "Dawn Labs <@derick>",
   "bugs": {
-    "url": "https://github.com/dawnlabs/carbon/issues"
+    "url": "https://github.com/derick/carbon/issues"
   },
-  "homepage": "https://dawnlabs.io/carbon"
+  "homepage": "https://derick.io/carbon"
 }
